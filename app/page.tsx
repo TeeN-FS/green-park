@@ -10,7 +10,7 @@ export default function Home() {
     name: "Green Park",
     description:
       "Kawasan ekowisata alam dengan jalur tracking, area hijau, dan fasilitas keluarga.",
-    url: "https://example.com", 
+      url: "https://green-park-rho.vercel.app",
     touristType: "Ecotourism",
     address: {
       "@type": "PostalAddress",

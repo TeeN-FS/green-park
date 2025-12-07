@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   },
   description:
     "Green Park adalah kawasan ekowisata alam dengan jalur tracking, suasana sejuk, dan area hijau yang cocok untuk keluarga dan pecinta alam.",
-  metadataBase: new URL("https://example.com"), // ganti nanti dengan domain Vercel-mu
+    metadataBase: new URL("https://green-park-rho.vercel.app"),
   openGraph: {
     title: "Green Park – Wisata Alam",
     description:
