@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: {
@@ -39,9 +40,10 @@ export default function RootLayout({
     <html lang="id">
       <body className="bg-gray-100">
         <Navbar />
-        {/* padding-top supaya konten tidak ketutup navbar */}
-        <div className="pt-24">{children}</div>
+          <div className="pt-24">{children}</div>
+          <WhatsAppButton />
       </body>
     </html>
   );
 }
+ 

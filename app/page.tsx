@@ -67,6 +67,50 @@ export default function Home() {
           </p>
         </section>
 
+<FadeIn>
+  {
+    <section className="max-w-3xl mx-auto mt-8 bg-white p-8 rounded-xl shadow">
+  <h2 className="text-2xl font-semibold text-green-700 mb-4">
+    Informasi Praktis
+  </h2>
+
+  <div className="grid md:grid-cols-2 gap-4 text-sm md:text-base text-gray-700">
+    <div className="bg-green-50 p-4 rounded-lg">
+      <h3 className="font-semibold mb-1">⏰ Jam Buka</h3>
+      <p>Setiap hari, 07.00 – 17.00 WIB</p>
+    </div>
+
+    <div className="bg-green-50 p-4 rounded-lg">
+      <h3 className="font-semibold mb-1">💸 Harga Tiket</h3>
+      <p>Dewasa: Rp10.000<br />Anak-anak: Rp5.000</p>
+    </div>
+
+    <div className="bg-green-50 p-4 rounded-lg">
+      <h3 className="font-semibold mb-1">📍 Lokasi</h3>
+      <p>Kawasan Hijau No. 12, Kota Sejuk</p>
+    </div>
+
+    <div className="bg-green-50 p-4 rounded-lg">
+      <h3 className="font-semibold mb-1">🚐 Cara ke Lokasi</h3>
+      <p>
+        Dapat diakses dengan kendaraan pribadi, ojek online, atau angkutan kota
+        (turun di halte Kawasan Hijau).
+      </p>
+    </div>
+
+    <div className="bg-green-50 p-4 rounded-lg md:col-span-2">
+      <h3 className="font-semibold mb-1">☎ Kontak</h3>
+      <p>
+        WhatsApp: 08xx-xxxx-xxxx<br />
+        Email: info@greenpark.com
+      </p>
+    </div>
+  </div>
+</section>
+  }
+</FadeIn>
+
+
         {/* FASILITAS */}
         <FadeIn>
           <section className="max-w-3xl mx-auto mt-10 bg-white p-8 rounded-xl shadow">
