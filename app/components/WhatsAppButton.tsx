@@ -1,4 +1,4 @@
-const phone = "6285649204047"; // ganti dengan nomor WA-mu
+const phone = "085649204047"; // ganti dengan nomor WA-mu
 const message = "Halo, saya mau tanya tentang Green Park."; // pesan awal
 
 export default function WhatsAppButton() {
