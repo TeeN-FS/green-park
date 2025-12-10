@@ -126,6 +126,45 @@ export default function Home() {
           </section>
         </FadeIn>
 
+<FadeIn>
+  <section className="max-w-3xl mx-auto mt-10 bg-white p-8 rounded-xl shadow">
+  <h2 className="text-2xl font-semibold text-green-700 mb-4">
+    Testimoni Pengunjung
+  </h2>
+
+  <div className="grid gap-4 md:grid-cols-3 text-gray-700">
+    {/* Card 1 */}
+    <div className="bg-green-50 p-4 rounded-lg shadow-sm">
+      <p className="text-yellow-500 text-lg mb-1">★★★★★</p>
+      <p className="text-sm italic">
+        “Tempatnya asri banget. Cocok buat healing dan foto-foto!”
+      </p>
+      <p className="mt-2 text-xs font-semibold">Rina S. – Jan 2024</p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-green-50 p-4 rounded-lg shadow-sm">
+      <p className="text-yellow-500 text-lg mb-1">★★★★★</p>
+      <p className="text-sm italic">
+        “Trek jalan kaki nyaman, banyak spot bagus dan edukatif.”
+      </p>
+      <p className="mt-2 text-xs font-semibold">Dimas A. – Feb 2024</p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-green-50 p-4 rounded-lg shadow-sm">
+      <p className="text-yellow-500 text-lg mb-1">★★★★☆</p>
+      <p className="text-sm italic">
+        “Tempatnya bersih dan sejuk. Akan lebih bagus kalau ada cafe.”
+      </p>
+      <p className="mt-2 text-xs font-semibold">Nur L. – Maret 2024</p>
+    </div>
+  </div>
+</section>
+</FadeIn>
+
+
+
         {/* GALERI */}
         <FadeIn>
           <section className="max-w-3xl mx-auto mt-10 bg-white p-8 rounded-xl shadow">
